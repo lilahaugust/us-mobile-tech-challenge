@@ -1,0 +1,62 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-board {
+  display: grid;
+  border: 1px solid black
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid #333; /* Border for cells */
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.form-field {
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px;
+  margin-top: 20px; /* Adjust the top margin as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.play-button {
+  background-color: #446C41;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.error-space {
+  height: 50px;
+}
+
+.buttons-area {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
